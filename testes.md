@@ -35,3 +35,12 @@ Uma melhoria necessária é estabelecer critérios mais objetivos para a classif
 - Não há conexão com pedidos reais.
 - As recomendações não foram validadas em uma operação real.
 - Os resultados representam experimentações iniciais com IA generativa.
+- ## Teste 03 — Pedido não recebido
+
+**Relato:** O aplicativo informa que o pedido foi entregue, mas o cliente não recebeu.
+
+**Classificação:** Pedido marcado como entregue, mas não recebido.
+
+**Prioridade:** Alta.
+
+**Resultado:** A IA identificou uma divergência entre o status do pedido e o relato do cliente, recomendando consultar os registros da entrega e encaminhar o caso para análise humana.
